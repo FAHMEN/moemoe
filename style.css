@@ -1,0 +1,129 @@
+
+  input[type=range]::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background: var(--icon-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6px;
+  }
+
+  input[type=range]:hover::-webkit-slider-thumb {
+    box-shadow: 0 0 5px var(--icon-color);
+  }
+
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: var(--icon-color);
+  }
+
+  input[type=range]::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background: var(--icon-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6px;
+  }
+
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: var(--icon-color);
+  }
+
+  input[type=range]::-ms-thumb {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background: var(--icon-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6px;
+  }
+
+ body[data-light^='1'] {
+   .blub, .wall-light-shadow {
+      opacity: 0.1;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.9;
+   }
+}
+ body[data-light^='2'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.2;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.8;
+   }
+}
+ body[data-light^='3'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.3;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.7;
+   }
+}
+ body[data-light^='4'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.4;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.6;
+   }
+}
+ body[data-light^='5'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.5;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.5;
+   }
+}
+ body[data-light^='6'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.6;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.4;
+   }
+}
+ body[data-light^='7'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.7;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.3;
+   }
+}
+ body[data-light^='8'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.8;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.2;
+   }
+}
+ body[data-light^='9'] {
+   .blub,  .wall-light-shadow {
+      opacity: 0.9;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0.1;
+   }
+}
+ body[data-light='10'] {
+   .blub,  .wall-light-shadow {
+      opacity: 1;     
+   }
+   .lamp-part.-bottom:before {
+     opacity: 0;
+   }
+}
