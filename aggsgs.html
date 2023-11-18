@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>
-		Controlled Brightness in a Lamp
-	</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEVADA</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="lamp-wrapper">
-        <div class="lamp-rope"></div>
-        <div class="lamp">
-          <div class="lamp-part -top">
-              <div class="lamp-part -top-part"></div>
-              <div class="lamp-part -top-part right"></div>
-          </div>
-          <div class="lamp-part -body"></div>
-          <div class="lamp-part -body right"></div>
-          <div class="lamp-part -bottom"></div>
-          <div class="blub"></div>
-        </div>
-        <div class="wall-light-shadow"></div>
-      </div>
-      
-      <form oninput="body.setAttribute('data-light', slider.value)">
-        <div class="icon sun">
-          <div class="ray"></div>
-          <div class="ray"></div>
-          <div class="ray"></div>
-          <div class="ray"></div>
-          <div class="ray"></div>
-          <div class="ray"></div>
-          <div class="ray"></div>
-          <div class="ray"></div>
-        </div>
-        <input type="range" id="slider" value="0" min="0" max="10">
-      </form>
-      
+  <header>
+    <h1>NEVADA</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>NEVADA is a new website that allows users to create and share their own virtual worlds. Users can use NEVADA to create anything they can imagine, from simple games to complex simulations.</p>
+      <p>NEVADA is still under development, but it has already been used to create a variety of amazing worlds. Some of the worlds that have been created using NEVADA include:
+        <ul>
+          <li>A world where users can fly through the air</li>
+          <li>A world where users can build their own cities</li>
+          <li>A world where users can explore the depths of the ocean</li>
+        </ul>
+      </p>
+      <p>If you're interested in creating your own virtual world, then NEVADA is the perfect tool for you.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Easy to use interface</li>
+        <li>Powerful tools for creating worlds</li>
+        <li>Collaboration with other users</li>
+        <li>Public sharing of worlds</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have any questions or feedback about NEVADA, please feel free to contact us at:
+        <ul>
+          <li>Email: <a href="mailto:nevada@example.com">nevada@example.com</a></li>
+          <li>Twitter: <a href="https://twitter.com/nevada_website">@nevada_website</a></li>
+          <li>GitHub: <a href="https://github.com/fahmen/nevada">fahmen/nevada</a></li>
+        </ul>
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 Fahmen</p>
+  </footer>
 </body>
 </html>
